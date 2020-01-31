@@ -35,28 +35,28 @@ return [
             'desc' => 'Intellectually Empowered Youth',
         ],
         [
-            'title' => 'Goal',
+            'title' => 'Goals',
             'image' => '/assets/images/icons/goal.png',
             'image_lg' => '/assets/images/icons/goal@2x.png',
-            'desc' => 'Lorem ipsum dolore sit amet',
+            'desc' => 'Inspiring young people to take an active role in their futures, and teaching them that their voices are strong and vital to the decision-making process;',
         ],
     ],
     'impact' => [
         [
-            'number' => '20',
-            'title' => 'projects completed',
+            'number' => '50',
+            'title' => 'completed activities',
         ],
         [
-            'number' => '120',
-            'title' => 'volunteers',
+            'number' => '600+',
+            'title' => 'students impacted',
         ],
         [
-            'number' => '400',
-            'title' => 'events hosted',
+            'number' => '200',
+            'title' => 'youth engaged in 2018-19 alone',
         ],
         [
-            'number' => '500',
-            'title' => 'community time',
+            'number' => '1st',
+            'title' => 'youth NGO in the region',
         ],
     ],
     'sponsors' => [
@@ -133,6 +133,9 @@ return [
         return Datetime::createFromFormat('Y-m-d', $page->start_date)->format('F j, Y');
     },
     'getEndDate' => function ($page) {
+        if ($page->end_date == 'ongoing')
+        return $page->end_date;
+        else
         return Datetime::createFromFormat('Y-m-d', $page->end_date)->format('F j, Y');
     },
     'collections' => [

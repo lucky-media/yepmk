@@ -21,7 +21,7 @@
         <div class="col-10 lg:col-8">
             <h1 class="text-purple-500 font-bold text-2xl lg:text-5xl text-center">
                 Empowering today's youth,
-                building tomorow leaders !
+                building tomorrow's leaders !
             </h1>
         </div>
     </div>
@@ -46,8 +46,8 @@
         <div class="row justify-center">
             <div class="lg:col-4 text-center">
                 <h1 class="text-purple-500 font-bold text-5xl">Our Impact</h1>
-                <p class="text-xs">Lorem, ipsum dolor sit amet consectetur adipsicing elit. amet <br> ad fuga volputate
-                    eligendi, officia consectetur corrupti ipsam ?
+                <p class="text-xs">The Youth Empowerment Platform has been active for four years,
+                and during this time, more than 50 activists have supported the mission and goals. 
                 </p>
             </div>
         </div>

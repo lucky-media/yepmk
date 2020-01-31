@@ -25,7 +25,7 @@
                     <h2 class="font-medium text-2xl text-purple-500">Donators</h2>
                     <p class="font-medium text-base text-gray-500">
                         @foreach($page->donators as $donator)
-                        {{ $donator }}
+                        {{ $donator }} |
                         @endforeach
                     </p>
                 </div>

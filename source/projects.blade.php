@@ -7,11 +7,20 @@
         <div class="md:col-6 lg:col-4">
             <h1 class="text-5xl text-purple-500 font-bold">Our projects</h1>
             <p class="lg:mt-4 text-sm text-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna odio tristique eget sed. At nunc, velit
-                integer id aliquam ultrices suspendisse aliquet.
+                We want to nurture civic engagement via peaceful activism and volunteerism.
+                The youth is the most important part of the community and as such it should
+                be stimulated to become an active part of the society.
                 <br><br>
-                Condimentum elit nulla cras in feugiat proin faucibus. Odio leo turpis facilisis praesent. Adipiscing
-                quam facilisis magnis elit. Velit orci gravida egestas odio at duis nec cras.</p>
+                Our organization is the driving force that motivates youth on volunteering
+                and improving their community. Our biggest force is the desire of the youth
+                to actively volunteer and contribute.
+                <br><br>
+                Volunteering is one of the greatest acts that reflects the inspiration,
+                goodwill and compassion of a person. We believe that the youth of this country
+                has a tremendous intellectual capacity that needs to be used effectively.
+                Rather than spending the time on the street and with empty discussions,
+                the youth can truly make a change through volunteering.
+                </p>
         </div>
         <div class="order-first mb-10 col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
             @include('_partials.project-svg')
