@@ -20,7 +20,7 @@
 </div>
 <div class="container mt-40 mb-48">
     <div class="row mt-24">
-        <div class="col-12 md:col-6 lg:col-5">
+        <div class="col-12 md:col-5 lg:col-5">
             <h1 class="text-2xl lg:text-5xl text-purple-500 font-bold">Long Term Goal</h1>
             <p class="my-6 font-medium text-base">The Youth Empowerment Platform’s long-term goals include:</p>
             <p class="font-medium text-sm mt-6">
@@ -68,7 +68,7 @@
             </div>
             <div style="width: 164px; height: 1px;" class="bg-yellow-500 ml-8"></div>
         </div>
-        <div class="col-12 mt-10 md:mt-0 md:col-6 md:offset-1">
+        <div class="col-12 mt-20 md:mt-0 md:col-6 md:offset-1">
             <h1 class="text-2xl lg:text-5xl text-purple-500 font-bold">Our Impact</h1>
             <p class="my-6 font-medium text-base text-justify">The Youth Empowerment Platform has been active for four
                 years, and
@@ -119,7 +119,7 @@
 <div class="container">
     <div class="row justify-center mb-48 mt-20">
         @foreach ($page->sponsors as $sponsor)
-        <div class="col-8 md:col-6 lg:col-3">
+        <div class="col-8 md:col-6 lg:col-4">
             <img src="{{ $sponsor->image }}" srcset="{{ $sponsor->image_lg }}" class="w-full h-auto"
                 alt="{{ $sponsor->alt }}">
         </div>

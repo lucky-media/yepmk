@@ -26,3 +26,7 @@ body {
 .transition {
     transition: all .55s ease;
 }
+
+#menu-toggle:checked+#menu {
+    display: flex;
+}

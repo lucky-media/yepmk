@@ -15,13 +15,14 @@
     <div class="container">
         <div class="row mb-4 text-base text-white pt-20">
             <div class="md:col-4 md:text-left md:mb-0 mb-10 text-center">
-                <p>Major Cede Filiposki 158, <br>Gostivar 1230,<br>Republic of N. Macedonia</p>
+                {!! $page->contact[0]->name !!}
             </div>
             <div class="md:col-4 md:text-center md:mb-0 mb-10 text-center">
-                <p>Monday - Saturday:<br> 10:00 - 18:00</p>
+                {!! $page->contact[1]->name !!}
             </div>
-            <div class="md:col-4 md:text-rght md:mb-0 mb-10 text-center">
-                <p>yepmk2015@gmail.com<br>+389 70 692 549</p>
+            <div class="md:col-4 md:text-right md:mb-0 mb-10 text-center">
+                {!! $page->contact[2]->name !!} <br>
+                {!! $page->contact[3]->name !!}
             </div>
         </div>
         <div class="row md:justify-between pb-10 mt-16 md:mt-20 lg:mt-32">
@@ -29,18 +30,11 @@
                 <p class="text-base text-white">© 2019 YEP. All Rights Reserved</p>
             </div>
             <div class="order-first mb-10 md:mb-0 md:order-none md:col-6 flex flex-row justify-center md:justify-end">
-                <a class="mr-8" href="https://www.facebook.com/YEPmk/" target="_blank">
-                    @include('_partials.icon', ['name' => 'facebook', 'class' => 'w-8 h-8 text-yellow-500'])
+                @foreach($page->social_media as $social)
+                <a class="mr-8 last:mr-0" href="{{ $social->url }}" target="_blank">
+                    @include('_partials.icon', ['name' => $social->name, 'class' => 'w-8 h-8 text-yellow-500'])
                 </a>
-                <a class="mr-8" href="http://www.instagram.com/yep.mk" target="_blank">
-                    @include('_partials.icon', ['name' => 'instagram', 'class' => 'w-8 h-8 text-yellow-500'])
-                </a>
-                <a class="mr-8" href="https://www.youtube.com/channel/UCftepR6yOGtMu5ysdET73SA" target="_blank">
-                    @include('_partials.icon', ['name' => 'youtube', 'class' => 'w-8 h-8 text-yellow-500'])
-                </a>
-                <a href="https://www.linkedin.com/company/yepmk" target="_blank">
-                    @include('_partials.icon', ['name' => 'linkedin', 'class' => 'w-8 h-8 text-yellow-500'])
-                </a>
+                @endforeach
             </div>
         </div>
     </div>

@@ -3,6 +3,24 @@
 return [
     'production' => false,
     'baseUrl' => '',
+    'menu' => [
+        [
+            'name' => 'Home',
+            'url' => '/',
+        ],
+        [
+            'name' => 'About Us',
+            'url' => '/about',
+        ],
+        [
+            'name' => 'Projects',
+            'url' => '/projects',
+        ],
+        [
+            'name' => 'Contact',
+            'url' => '/contact',
+        ],
+    ],
     'values' => [
         [
             'title' => 'Mission',
@@ -62,12 +80,17 @@ return [
             'image_lg' => '/assets/images/sponsors/usaid@2x.jpg',
             'alt' => 'USAID',
         ],
+        [
+            'image' => '/assets/images/sponsors/undp.jpg',
+            'image_lg' => '/assets/images/sponsors/undp@2x.jpg',
+            'alt' => 'UNDP',
+        ],
     ],
     'contact' => [
         [
             'icon' => '/assets/images/icons/location.png',
             'icon_lg' => '/assets/images/icons/location@2x.png',
-            'name' => 'Major Cede Filiposki 158, <br>  Gostivar 1230, <br> Republic of N. Macedonia',
+            'name' => 'Borce Jovanoski nr.32, <br>  Gostivar 1230, <br> Republic of N. Macedonia',
         ],
         [
             'icon' => '/assets/images/icons/time.png',
@@ -85,6 +108,27 @@ return [
             'name' => 'yepmk2015@gmail.com',
         ],
     ],
+    'social_media' => [
+        [
+            'name' => 'facebook',
+            'url' => 'https://www.facebook.com/YEPmk/',
+        ],
+        [
+            'name' => 'instagram',
+            'url' => 'https://www.instagram.com/yep.mk/',
+        ],
+        [
+            'name' => 'youtube',
+            'url' => 'https: //www.youtube.com/channel/UCftepR6yOGtMu5ysdET73SA',
+        ],
+        [
+            'name' => 'linkedin',
+            'url' => 'https://www.linkedin.com/company/yepmk/',
+        ],
+    ],
+    'isActive' => function ($page, $path) {
+        return ends_with(trimPath($page->getPath()), trimPath($path));
+    },
     'getStartDate' => function ($page) {
         return Datetime::createFromFormat('Y-m-d', $page->start_date)->format('F j, Y');
     },

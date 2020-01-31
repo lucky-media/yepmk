@@ -6693,6 +6693,11 @@ body h6::selection {
   transition: all 0.55s ease;
 }
 
+#menu-toggle:checked + #menu {
+  display: -webkit-box;
+  display: flex;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
