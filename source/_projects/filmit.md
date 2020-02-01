@@ -1,5 +1,5 @@
 ---
-title: 'FilmIt'
+title: 'Film it'
 short_desc: 'Raising awareness through videos'
 cover: '/assets/images/uploads/filmit-img2.jpg'
 start_date: '2018-04-02'
