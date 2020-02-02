@@ -1,5 +1,6 @@
 <div class="bg-no-repeat bg-cover" style="background-image: url('/assets/images/footer-bg.png'); min-height: 460px;">
-    <div class="container pt-64 pb-10">
+    <div class="h-64"></div>
+    <div class="container pt-48 pb-20">
         <div class="row justify-center">
             <div class="col-12 lg:col-8 text-center">
                 <h2 class="text-white font-bold text-3xl">

@@ -5,12 +5,13 @@
 <div class="container mt-16">
     <div class="row items-center">
         <div class="text-center mt-10 lg:mt-0 lg:text-left lg:col-4">
-            <h1 class="text-5xl text-purple-500 font-bold">Empowering the youth</h1>
-            <p class="mt-4 text-sm">Learn more about our cause.</p>
-            <a href="/about" class=" inline-block mt-8 rounded-lg bg-purple-400 text-base text-white px-6 py-3">Learn
+            <h1 class="headline text-5xl text-purple-500 font-bold">Empowering the youth</h1>
+            <p class="desc mt-4 text-sm">Learn more about our cause.</p>
+            <a href="/about"
+                class="head-btn inline-block mt-8 rounded-lg bg-purple-400 text-base text-white px-6 py-3">Learn
                 More</a>
         </div>
-        <div class="order-first lg:order-none lg:col-7 lg:offset-1">
+        <div class="head-svg order-first lg:order-none lg:col-7 lg:offset-1">
             @include('_partials.home-svg')
         </div>
     </div>
@@ -19,7 +20,7 @@
 <div class="container mt-20 mt-48">
     <div class="row justify-center mb-10">
         <div class="col-10 lg:col-8">
-            <h1 class="text-purple-500 font-bold text-2xl lg:text-5xl text-center">
+            <h1 class="reveal text-purple-500 font-bold text-2xl lg:text-5xl text-center">
                 Empowering today's youth,
                 building tomorrow's leaders !
             </h1>
@@ -27,7 +28,7 @@
     </div>
     <div class="row">
         @foreach ($page->values as $values)
-        <div class="col-12 lg:col-4 mb-10 lg:mb-0">
+        <div class="col-12 lg:col-4 mb-10 lg:mb-0 reveal">
             <div class="flex flex-col items-center text-center py-10">
                 <img src="{{ $values->image }}" srcset="{{ $values->image_lg }}" style="height:180px;" class="w-auto"
                     alt="">
@@ -45,16 +46,17 @@
     <div class="container py-32 md:py-64">
         <div class="row justify-center">
             <div class="lg:col-4 text-center">
-                <h1 class="text-purple-500 font-bold text-5xl">Our Impact</h1>
-                <p class="text-xs">The Youth Empowerment Platform has been active for four years,
-                and during this time, more than 50 activists have supported the mission and goals. 
+                <h1 class="reveal text-purple-500 font-bold text-5xl">Our Impact</h1>
+                <p class="reveal text-xs">The Youth Empowerment Platform has been active for four years,
+                    and during this time, more than 50 activists have supported the mission and goals.
                 </p>
             </div>
         </div>
 
         <div class="row justify-center">
             <div class="col-6 lg:col-8 mt-20">
-                <div class="bg-purple-500 rounded-xl flex flex-col lg:flex-row justify-between items-center px-6 py-4">
+                <div
+                    class="reveal bg-purple-500 rounded-xl flex flex-col lg:flex-row justify-between items-center px-6 py-4">
                     @foreach($page->impact as $impact)
                     <div class="flex flex-col text-center mb-8 lg:mb-0 last:mb-0">
                         <h2 class="text-white font-bold text-2xl md:text-6xl leading-none">{{ $impact->number }}</h2>

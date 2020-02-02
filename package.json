@@ -24,7 +24,7 @@
         "yargs": "^4.6.0"
     },
     "dependencies": {
-        "tailwindcss": "^1.1.4",
-        "vue": "^2.6.11"
+        "scrollreveal": "^4.0.5",
+        "tailwindcss": "^1.1.4"
     }
 }

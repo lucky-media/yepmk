@@ -1,9 +1,26 @@
-window.Vue = require('vue');
+import ScrollReveal from 'scrollreveal';
 
-Vue.config.productionTip = false;
+window.addEventListener('DOMContentLoaded', (event) => {
 
-Vue.component('v-example', require('./components/Example.vue').default);
+    ScrollReveal({
+        duration: 1000
+    });
 
-const app = new Vue({
-    el: '#app',
+    const nodeList = document.querySelectorAll('.reveal');
+
+    ScrollReveal().reveal(nodeList, {
+        delay: 100
+    });
+
+    ScrollReveal().reveal('.headline');
+    ScrollReveal().reveal('.desc', {
+        delay: 100
+    });
+    ScrollReveal().reveal('.head-btn', {
+        delay: 200
+    });
+    ScrollReveal().reveal('.head-svg', {
+        delay: 300
+    });
+
 });

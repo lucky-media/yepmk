@@ -29,7 +29,8 @@ module.exports = {
     },
   },
   variants: {
-    margin: ['responsive', 'last']
+    margin: ['responsive', 'last'],
+    borderWidth: ['responsive', 'last']
   },
   corePlugins: {
     container: false,

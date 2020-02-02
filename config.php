@@ -2,6 +2,8 @@
 
 return [
     'production' => false,
+    'siteName' => 'Youth Empowerment Platform',
+    'siteDescription' => 'Youth Empowerment Platform (YEP) is a youth-orientated non-governmental organization, located in Gostivar.',
     'baseUrl' => '',
     'menu' => [
         [
@@ -126,6 +128,10 @@ return [
             'url' => 'https://www.linkedin.com/company/yepmk/',
         ],
     ],
+    'getDescription' => function($page)
+    {
+        return strip_tags($page->getContent());
+    },
     'isActive' => function ($page, $path) {
         return ends_with(trimPath($page->getPath()), trimPath($path));
     },
