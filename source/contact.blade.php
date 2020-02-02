@@ -36,24 +36,27 @@
         </div>
         <div class="mb-16 md:mb-0 md:col-8 lg:col-6">
             <div class="bg-purple-500 rounded-xl">
-                <div class="flex flex-col justify-center px-10 md:px-16">
-                    <h2 class="reveal mb-6 mt-16 font-bold text-xl md:text-2xl text-yellow-500">Send us a message</h2>
-                    <input
-                        class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
-                        type="text" placeholder="Name" name="name" />
-                    <input
-                        class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
-                        type="text" placeholder="Subject" name="subject" />
-                    <input
-                        class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
-                        type="text" placeholder="E-Mail" name="email" />
-                    <textarea
-                        class="reveal mb-6 bg-purple-400 text-purple-500 placeholder-purple-500 font-medium text-xs py-4 pl-4"
-                        name="subject" placeholder="Message"></textarea>
-                    <button type="submit" value="submit"
-                        class="mb-16 px-8 py-4 inline-block placeholder-purple-500 bg-yellow-500 text-base text-black">Send
-                        Message</button>
-                </div>
+                <form name="contact" data-netlify="true" action="POST">
+                    <div class="flex flex-col justify-center px-10 md:px-16">
+                        <h2 class="reveal mb-6 mt-16 font-bold text-xl md:text-2xl text-yellow-500">Send us a message
+                        </h2>
+                        <input
+                            class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                            type="text" placeholder="Name" name="name" required />
+                        <input
+                            class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                            type="text" placeholder="Subject" name="subject" required />
+                        <input
+                            class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                            type="text" placeholder="E-Mail" name="email" required />
+                        <textarea
+                            class="reveal mb-6 bg-purple-400 text-purple-500 placeholder-purple-500 font-medium text-xs py-4 pl-4"
+                            name="message" placeholder="Message" required></textarea>
+                        <button type="submit" value="submit"
+                            class="mb-16 px-8 py-4 inline-block placeholder-purple-500 bg-yellow-500 text-base text-black">Send
+                            Message</button>
+                    </div>
+                </form>
             </div>
         </div>
 
