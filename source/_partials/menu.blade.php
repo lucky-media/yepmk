@@ -22,7 +22,8 @@
             <div class="transition opacity-0 hidden flex-col md:opacity-100 md:col-8 md:flex md:flex-row items-center justify-end pt-6 md:pt-0"
                 id="menu">
                 @foreach($page->menu as $menu)
-                <a class="transition w-full text-center text-xl uppercase font-bold py-6 border-purple-100 border-b last:border-b-0 md:font-medium md:text-base md:normal-case md:py-2 md:border-transparent md:border-b-2 md:hover:border-yellow-500 md:w-auto md:mr-8 last:mr-0 hover:text-purple-500 {{ $page->isActive($menu->url) ? 'md:border-yellow-500' : '' }}"
+                <a aria-label="{{ $menu->name }}"
+                    class="transition w-full text-center text-xl uppercase font-bold py-6 border-purple-100 border-b last:border-b-0 md:font-medium md:text-base md:normal-case md:py-2 md:border-transparent md:border-b-2 md:hover:border-yellow-500 md:w-auto md:mr-8 last:mr-0 hover:text-purple-500 {{ $page->isActive($menu->url) ? 'md:border-yellow-500' : '' }}"
                     href="{{ $menu->url }}">{{ $menu->name }}</a>
                 @endforeach
             </div>

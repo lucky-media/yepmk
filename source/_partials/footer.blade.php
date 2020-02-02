@@ -32,7 +32,8 @@
             </div>
             <div class="order-first mb-10 md:mb-0 md:order-none md:col-6 flex flex-row justify-center md:justify-end">
                 @foreach($page->social_media as $social)
-                <a class="mr-8 last:mr-0" href="{{ $social->url }}" target="_blank">
+                <a class="mr-8 last:mr-0" rel="noopener noreferrer" aria-label="{{ $social->name }}"
+                    href="{{ $social->url }}" target="_blank">
                     @include('_partials.icon', ['name' => $social->name, 'class' => 'w-8 h-8 text-yellow-500'])
                 </a>
                 @endforeach
