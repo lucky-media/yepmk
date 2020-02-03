@@ -30,7 +30,7 @@ module.exports = {
   },
   variants: {
     margin: ['responsive', 'last'],
-    borderWidth: ['responsive', 'last']
+    borderWidth: ['responsive', 'last'],
   },
   corePlugins: {
     container: false,

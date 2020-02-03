@@ -1,6 +1,9 @@
 import ScrollReveal from 'scrollreveal';
+import CookieNotice from "./components/cookie-notice";
 
 window.addEventListener('DOMContentLoaded', (event) => {
+
+    new CookieNotice();
 
     ScrollReveal({
         duration: 1000

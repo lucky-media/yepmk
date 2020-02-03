@@ -37,6 +37,20 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo:500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 
+
+    {{--  Analytics  --}}
+    @if ($page->production)
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36311389-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-36311389-2');
+    </script>
+    @endif
+
     {{-- Javascript --}}
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
@@ -52,6 +66,33 @@
     <footer>
         @include('_partials.footer')
     </footer>
+
+    <div id="cookieContainer" class="hidden sticky bottom-0 w-full z-20 py-6 bg-yellow-500">
+        <div class="container">
+            <div class="row items-center justify-center">
+                <div class="md:col-8 flex flex-col md:flex-row">
+                    <div class="mb-4 md:mr-6">
+                        <img class="w-20 h-auto" src="/assets/images/cookie.png" srcset="/assets/images/cookie@2x.png"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col text-gray-900">
+                        <h4 class="font-bold">This website uses cookies.</h4>
+                        <p class="font-normal text-sm mt-1">We use cookies to
+                            ensure that we give you the best experience on our
+                            website and to analyse our traffic using Google
+                            Analytics.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-4 md:mt-0 md:col-4">
+                    <button id="cookieClose"
+                        class="transition font-bold text-gray-900 border border-purple-500 hover:bg-purple-500 hover:text-white px-4 py-2 button">
+                        I Agree
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
