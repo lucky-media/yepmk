@@ -28,9 +28,13 @@
         </div>
         <div class="row md:justify-between pb-10 mt-16 md:mt-20 lg:mt-32">
             <div class="text-center md:col-6 md:text-left">
-                <p class="text-base text-white">© 2019 YEP. All Rights Reserved</p>
+                <p class="text-base text-white">© 2019 YEP. All Rights Reserved. Made with <span
+                        class="text-yellow-500">&#9829;</span> from <a class="
+                        font-bold pb-2 border-b-2 border-transparent hover:border-yellow-500"
+                        href="http://www.luckymedia.mk">Lucky Media</a>
+                </p>
             </div>
-            <div class="order-first mb-10 md:mb-0 md:order-none md:col-6 flex flex-row justify-center md:justify-end">
+            <div class=" order-first mb-10 md:mb-0 md:order-none md:col-6 flex flex-row justify-center md:justify-end">
                 @foreach($page->social_media as $social)
                 <a class="mr-8 last:mr-0" rel="noopener noreferrer" aria-label="{{ $social->name }}"
                     href="{{ $social->url }}" target="_blank">

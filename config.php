@@ -12,15 +12,15 @@ return [
         ],
         [
             'name' => 'About Us',
-            'url' => '/about',
+            'url' => '/about/',
         ],
         [
             'name' => 'Projects',
-            'url' => '/projects',
+            'url' => '/projects/',
         ],
         [
             'name' => 'Contact',
-            'url' => '/contact',
+            'url' => '/contact/',
         ],
     ],
     'values' => [
