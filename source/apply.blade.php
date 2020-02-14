@@ -17,8 +17,10 @@
             <p class="reveal lg:mt-4 text-sm text-medium">
                 The course is free for all primary school students in Gostivar that are 7th & 8th grade.
                 The students will gain coding skills by playing with robots.<br><br>
-                It will have 3 weeks of 2h long sessions and the competition in the end.
-                Certificates will be given to all students that successfully finish the course.
+                It will have 4 weeks of learning sessions, the preliminary phase and the competition in the end.
+                Certificates will be given to all students that successfully finish the course.<br><br>
+                The winners of the competition will get medals and technological gadgets.<br><br>
+                This project is supported by Peace Corps and it's being implemented by YEP. 
             </p>
         </div>
         <div class="order-first mb-10 col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
