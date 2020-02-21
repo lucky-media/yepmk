@@ -97,6 +97,7 @@
                 Mert Hüseyini<br>
                 Emir Mücaiti<br>
                 Eda Ajdari<br>
+                Kanita imeri<br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 15:00</b><br>
