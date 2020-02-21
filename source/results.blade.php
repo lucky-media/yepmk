@@ -27,7 +27,7 @@
                 Sara idrizi<br>
                 Flamur Zulbeari<br>
                 Anis Neziri<br>
-                Dijar Goxha<br>
+                Dijar Goxha<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Saturday 12:00</b><br>
@@ -38,7 +38,7 @@
                 Amina Abduraimi<br>
                 Mirela Neziri<br>
                 Esra Ilazi<br>
-                Suhejl Zendeli<br>
+                Suhejl Zendeli<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Saturday 14:00</b><br>
@@ -49,7 +49,7 @@
                 Afan Ramadani<br>
                 Endrit Mahmuti<br>
                 Adis Sulejmani<br>
-                Valon Aliu<br>
+                Valon Aliu<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Saturday 15:00</b><br>
@@ -60,7 +60,7 @@
                 Fisnik Izeiri<br>
                 Ilirjan Osmani<br>
                 Amra Ibraimi<br>
-                Agon Baka
+                Agon Baka<br><br><br>
             </p>
         </div>
 
@@ -75,7 +75,7 @@
                 Elif Zulbeari<br>
                 Altina Isejni<br>
                 Omer ahmeti<br>
-                Blend Selimi<br>
+                Blend Selimi<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 12:00</b><br>
@@ -86,7 +86,7 @@
                 Devla Fejzullai<br>
                 Hana Osmani<br>
                 Mijesere Veseli<br>
-                Valon Ferati<br>
+                Valon Ferati<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 14:00</b><br>
@@ -97,7 +97,7 @@
                 Mert Hüseyini<br>
                 Emir Mücaiti<br>
                 Eda Ajdari<br>
-                Kanita imeri<br>
+                Kanita imeri<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 15:00</b><br>
@@ -108,7 +108,7 @@
                 Hana Sadiku<br>
                 Viola Aqifi<br>
                 Sehare Bajrami<br>
-                Fakri Saliu
+                Fakri Saliu<br><br>
             </p>
             </p>
         </div>
