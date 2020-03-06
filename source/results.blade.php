@@ -23,11 +23,9 @@
                 Nazmije Saliu<br>
                 Berna Aliu<br>
                 Gentian Aliu<br>
-                Enes Ramadani<br>
                 Sara idrizi<br>
                 Flamur Zulbeari<br>
-                Anis Neziri<br>
-                Dijar Goxha<br><br>
+                Anis Neziri<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Saturday 12:00</b><br>
@@ -46,10 +44,10 @@
                 Esra Hamiti<br>
                 Bejan Sallmani<br>
                 Lenard Demiri<br>
-                Afan Ramadani<br>
+                Dijar Goxha<br>
                 Endrit Mahmuti<br>
-                Adis Sulejmani<br>
-                Valon Aliu<br><br>
+                Enes Ramadani<br>
+                Blend Selimi<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Saturday 15:00</b><br>
@@ -70,19 +68,18 @@
                 <b>Sunday 11:00</b><br>
                 Jasin Lutfiu<br>
                 Arbenit Sulejmani<br>
-                Genci Selmani<br>
+                Labian Tairi<br>
                 Roxhers Çollaku<br>
                 Elif Zulbeari<br>
                 Altina Isejni<br>
-                Omer ahmeti<br>
-                Blend Selimi<br><br>
+                Omer ahmeti<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 12:00</b><br>
                 Namik Jakupi<br>
                 Ylli Elmazi<br>
                 Jasin Dauti<br>
-                Besir Abdiu<br>
+                Kanita Imeri<br>
                 Devla Fejzullai<br>
                 Hana Osmani<br>
                 Mijesere Veseli<br>
@@ -91,13 +88,13 @@
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 14:00</b><br>
                 Nërgim Sulejmani<br>
-                Islam ismaili<br>
+                Eda Ajdari<br>
                 Aldin Memedi<br>
                 Venis Memedi<br>
-                Mert Hüseyini<br>
+                Ikra Selimi<br>
+                Arisa Neziri<br>
                 Emir Mücaiti<br>
-                Eda Ajdari<br>
-                Kanita imeri<br><br>
+                Omer Selimi<br><br>
             </p>
             <p class="reveal lg:mt-4 text-sm text-medium">
                 <b>Sunday 15:00</b><br>
