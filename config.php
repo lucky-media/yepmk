@@ -92,7 +92,7 @@ return [
         [
             'icon' => '/assets/images/icons/location.png',
             'icon_lg' => '/assets/images/icons/location@2x.png',
-            'name' => 'Borce Jovanoski nr.32, <br>  Gostivar 1230, <br> Republic of N. Macedonia',
+            'name' => 'Borce Jovanoski 32, <br>  Gostivar 1230, <br> North Macedonia',
         ],
         [
             'icon' => '/assets/images/icons/time.png',
