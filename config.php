@@ -121,7 +121,7 @@ return [
         ],
         [
             'name' => 'youtube',
-            'url' => 'https: //www.youtube.com/channel/UCftepR6yOGtMu5ysdET73SA',
+            'url' => 'https://www.youtube.com/channel/UCftepR6yOGtMu5ysdET73SA',
         ],
         [
             'name' => 'linkedin',
