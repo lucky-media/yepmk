@@ -77,7 +77,7 @@
         </div>
         <div class="col-12 mt-20 md:mt-0 md:col-6 md:offset-1">
             <h1 class="reveal text-2xl lg:text-5xl text-purple-500 font-bold">Our Impact</h1>
-            <p class="reveal my-6 font-medium text-base text-justify">YEP has been active for four years, and
+            <p class="reveal my-6 font-medium text-base text-justify">YEP has been active for seven years, and
                 during this time, more than 50 activists have supported the mission and goals.<br>
                 Currently, there are nine
                 different projects our members participate in or lead. These projects include the following:
@@ -107,7 +107,7 @@
                     <p class="reveal font-medium text-sm text-white text-justify">
                         YEP’s active members consist of more than 30 youth, mainly between the ages of 14 and 19. There
                         are
-                        also some more experienced members, between the ages of 20 and 29.<br>
+                        also some more experienced members, between the ages of 20 and 29. About 50% of our members are females.<br>
                         Our members are passionate
                         about
                         serving their communities, learning from each other, and building their experiences. While the
