@@ -93,21 +93,26 @@ return [
             'icon' => '/assets/images/icons/location.png',
             'icon_lg' => '/assets/images/icons/location@2x.png',
             'name' => 'Borce Jovanoski 32, <br>  Gostivar 1230, <br> North Macedonia',
+            'href' => 'https://www.google.com/search?q=Borce%20Jovanoski%2032%2C%20Gostivar%201230%2C%20North%20Macedonia&rlz=1C1GCEA_enMK977MK977&oq=Borce+Jovanoski+32%2C++Gostivar+1230%2C++North+Macedonia&aqs=chrome..69i57.4408j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=11881092407646097596&lqi=CjJCb3JjZSBKb3Zhbm9za2kgMzIsIEdvc3RpdmFyIDEyMzAsIE5vcnRoIE1hY2Vkb25pYVoyIjBib3JjZSBqb3Zhbm9za2kgMzIgZ29zdGl2YXIgMTIzMCBub3J0aCBtYWNlZG9uaWGSAR1ub25fZ292ZXJubWVudGFsX29yZ2FuaXphdGlvbg&ved=2ahUKEwiixpy5lc32AhUTSfEDHS7iAegQvS56BAgMEAE&rlst=f#rlfi=hd:;si:11881092407646097596,l,CjJCb3JjZSBKb3Zhbm9za2kgMzIsIEdvc3RpdmFyIDEyMzAsIE5vcnRoIE1hY2Vkb25pYVoyIjBib3JjZSBqb3Zhbm9za2kgMzIgZ29zdGl2YXIgMTIzMCBub3J0aCBtYWNlZG9uaWGSAR1ub25fZ292ZXJubWVudGFsX29yZ2FuaXphdGlvbg;mv:[[41.794375,20.9106992],[41.7912782,20.9025399]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2'
+
         ],
         [
             'icon' => '/assets/images/icons/time.png',
             'icon_lg' => '/assets/images/icons/time@2x.png',
             'name' => 'Monday - Saturday: <br> 10:00 - 18:00',
+            'href' => ''
         ],
         [
             'icon' => '/assets/images/icons/phone.png',
             'icon_lg' => '/assets/images/icons/phone@2x.png',
             'name' => '+389 70 692 549',
+            'href' => 'tel:+389 70 682 549'
         ],
         [
             'icon' => '/assets/images/icons/mail.png',
             'icon_lg' => '/assets/images/icons/mail@2x.png',
             'name' => 'yepmk2015@gmail.com',
+            'href' => 'mailto:yepmk2015@gmail.com'
         ],
     ],
     'social_media' => [

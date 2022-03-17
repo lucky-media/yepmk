@@ -10,26 +10,32 @@
 @section('body')
 
 <div class="container">
-    <div class="row items-center mb-20">
+    <div class="items-center mb-20 row">
         <div class="md:col-6 lg:col-4">
-            <h1 class="reveal text-2xl lg:text-5xl text-purple-500 font-bold">Feel free to contact us</h1>
+            <h1 class="text-2xl font-bold text-purple-500 reveal lg:text-5xl">Feel free to contact us</h1>
         </div>
-        <div class="reveal order-first mb-10 col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
+        <div class="order-first mb-10 reveal col-12 md:order-none md:col-6 lg:offset-1 lg:col-7">
             @include('_partials/contact-svg')
         </div>
     </div>
 </div>
 <div class="container">
-    <div class="row justify-between">
-        <div class="md:col-4 lg:col-4 mb-16 md:mb-0">
-            <h2 class="reveal text-2xl lg:text-5xl text-purple-500 font-bold">Our office</h2>
+    <div class="justify-between row">
+        <div class="mb-16 md:col-4 lg:col-4 md:mb-0">
+            <h2 class="text-2xl font-bold text-purple-500 reveal lg:text-5xl">Our office</h2>
 
             @foreach($page->contact as $contact)
-            <div class="reveal flex flex-row items-center">
+            <div class="flex flex-row items-center reveal">
                 <img class="w-10 h-10" src="{{ $contact->icon }}" srcset="{{ $contact->icon_lg }}" alt="">
-                <p class="py-8 font-medium text-gray-500 text-sm ml-5">
+                @if ($contact->href)
+                <a href="{{ $contact->href}}" target="_blank">
+                @endif
+                <p class="py-8 ml-5 text-sm font-medium text-gray-500">
                     {!! $contact->name !!}
                 </p>
+                @if ($contact->href)
+                </a>
+                @endif
             </div>
             @endforeach
 
@@ -38,22 +44,25 @@
             <div class="bg-purple-500 rounded-xl">
                 <form name="contact" data-netlify="true" action="POST">
                     <div class="flex flex-col justify-center px-10 md:px-16">
-                        <h2 class="reveal mb-6 mt-16 font-bold text-xl md:text-2xl text-yellow-500">Send us a message
+                        <h2 class="mt-16 mb-6 text-xl font-bold text-yellow-500 reveal md:text-2xl">Send us a message
                         </h2>
                         <input
-                            class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                            class="py-4 pl-4 mb-6 text-xs font-medium text-purple-500 placeholder-purple-500 bg-purple-400 reveal"
                             type="text" placeholder="Name" name="name" required />
                         <input
-                            class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
-                            type="text" placeholder="Subject" name="subject" required />
-                        <input
-                            class="reveal mb-6 bg-purple-400 placeholder-purple-500 text-purple-500 font-medium text-xs py-4 pl-4"
+                            class="py-4 pl-4 mb-6 text-xs font-medium text-purple-500 placeholder-purple-500 bg-purple-400 reveal"
                             type="text" placeholder="E-Mail" name="email" required />
+                        <input
+                            class="py-4 pl-4 mb-6 text-xs font-medium text-purple-500 placeholder-purple-500 bg-purple-400 reveal"
+                            type="number" placeholder="Phone" name="phone" required />
+                        <input
+                            class="py-4 pl-4 mb-6 text-xs font-medium text-purple-500 placeholder-purple-500 bg-purple-400 reveal"
+                            type="text" placeholder="Subject" name="subject" required />
                         <textarea
-                            class="reveal mb-6 bg-purple-400 text-purple-500 placeholder-purple-500 font-medium text-xs py-4 pl-4"
+                            class="py-4 pl-4 mb-6 text-xs font-medium text-purple-500 placeholder-purple-500 bg-purple-400 reveal"
                             name="message" placeholder="Message" required></textarea>
                         <button type="submit" value="submit"
-                            class="mb-16 px-8 py-4 inline-block placeholder-purple-500 bg-yellow-500 text-base text-black">Send
+                            class="inline-block px-8 py-4 mb-16 text-base text-black placeholder-purple-500 bg-yellow-500">Send
                             Message</button>
                     </div>
                 </form>
