@@ -30,7 +30,7 @@
             <div class="text-center md:col-6 md:text-left">
                 <p class="text-base text-white">© 2021 YEP. All Rights Reserved. Made with <span
                         class="text-yellow-500">&#9829;</span> from <a class="pb-2 font-bold border-b-2 border-transparent hover:border-yellow-500"
-                        href="http://www.luckymedia.dev/?ref=YEP" rel="external">Lucky Media</a>
+                        href="https://www.luckymedia.dev/?ref=YEP" rel="external">Lucky Media</a>
                 </p>
             </div>
             <div class="flex flex-row justify-center order-first mb-10 md:mb-0 md:order-none md:col-6 md:justify-end">
