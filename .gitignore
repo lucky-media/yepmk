@@ -5,6 +5,7 @@
 /vendor/
 /.idea/
 /.vscode/
+/.github
 npm-debug.log
 yarn-error.log
 
